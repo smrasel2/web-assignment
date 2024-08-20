@@ -1,0 +1,15 @@
+@media screen and (max-width:576px){
+    .menu{
+        display: none
+    }
+    .hamb {
+        display: block;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .nav-cont{
+        margin-left: -130px;
+    }
+}
