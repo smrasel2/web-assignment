@@ -6,9 +6,13 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-color: black;
 }
+
+/* nav bar start */
 .nav-cont{
     color: rgb(230, 83, 60);
 font-family: inter;
@@ -20,12 +24,13 @@ font-weight: 800;
 .nav-container{
     display: flex;
     justify-content: space-between;
-    margin-left: 194px;
-    margin-top: 50px;
+     margin: 50px auto 0;
+  
+    width: 80%;
 }
 .nav-container ul{
     display: flex;
-    margin-right: 194px;
+   margin: 0 auto;
     gap: 47px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
@@ -54,3 +59,177 @@ nav ul li{
 
     display: none;
 }
+/* nav bar end */
+
+
+/* hero section start */
+.content-mats{
+    display: flex;
+    justify-content: space-between;
+    margin: 97px 0 auto;
+
+    
+  
+    align-items: center;
+    
+
+    
+}
+.contents{
+    margin-left: 197px;
+}
+
+.right-one{
+ 
+    width: 50%;
+
+    
+}
+.bold{
+    color: aliceblue;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 4.87rem;
+    
+}
+
+.bold-pera{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    
+
+}
+
+.left-one{
+    
+ margin-right: 214px;
+
+
+}
+.left-one img{
+    position: relative;
+    
+}
+.join-btn{
+   margin-top: 10px;
+   border-radius: 42px;
+
+background: rgb(230, 83, 60);
+
+padding: 16px 40px;
+color: aliceblue;
+border: none;
+}
+
+.down-btn{
+    
+ border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+padding: 16px 40px;
+
+background-color: transparent;
+color: white;
+margin-left: 8px;
+
+
+}
+
+.dot{
+    width: 40px;
+height: 40px;
+background-color: rgb(230, 83, 60);
+border-radius: 50%;
+
+
+    
+    
+}
+
+.mats{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+
+.num{
+    color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 24px;
+font-weight: 900;
+
+
+
+}
+.num-lekha{
+    color: rgba(239, 237, 232, 0.65);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+
+
+
+
+
+}
+#btn-one{
+    width: 206px;
+  margin-top: -150px;
+  margin-left: -100px;
+  
+  position: absolute;
+  height: 96px;
+
+  border-radius: 12px;
+  
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  
+  
+  
+  
+  
+  
+ 
+}
+#btn-two{
+    width: 206px;
+           margin-left: 250px;
+    margin-top: -450px;
+
+    position: absolute;
+
+    height: 96px;
+
+    border-radius: 12px;
+    
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+  
+    
+}
+
+.sec-pera{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 900;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.mul-pera{
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+}
+
+/* hero section end */
+

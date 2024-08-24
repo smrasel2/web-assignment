@@ -6,10 +6,50 @@
         display: block;
         display: flex;
         align-items: center;
-        margin-right: 30px;
+        
     }
+    .content-mats{
+        flex-direction: column;
+    }
+    .right-one{
+        width: 80%;   
+}
 
-    .nav-cont{
-        margin-left: -130px;
-    }
+
+.contents{
+    margin-left: 0;
+}
+
+.flex{
+    display: flex;
+}
+.left-one{
+    
+    margin-right: 0;
+   
+   
+   }
+   #btn-two{
+
+            width: 150px;
+           margin-left: 200px;
+    margin-top: -500px;
+}
+#btn-one{
+    width: 155px;
+    margin-left: -00px;
+margin-top: -350px;
+}
+
+.dot{
+    width: 40%;
+
+    
+}
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+ 
+    
 }
