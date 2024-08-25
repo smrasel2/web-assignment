@@ -340,3 +340,124 @@ border: none;
     
 }
 /* run section end */
+
+/* bmi section */
+
+.bmi-stuffs{
+ width: 100%;
+ 
+}
+
+.bmi-stuffs h1{
+ color: rgb(255, 255, 255);
+ width: 500px;
+ 
+ margin: 0 auto;
+ margin-top: 150px;
+ margin-bottom: 14px;
+
+}
+.bmi-stuffs p{
+   color: rgba(255, 255, 255, 0.5);
+   width: 500px;
+ 
+ margin: 0 auto;
+ margin-bottom: 68px;
+}
+.bmi-cont{
+    width: 100%;
+    height: 487px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    
+}
+.bmi-right{
+  width: 50%;
+  height: 80%;
+  margin-top: 52px;
+}
+.bmi-right h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 52px;
+}
+table td{
+    color: rgba(255, 255, 255, 0.5);
+    border:1px solid rgba(255, 255, 255, 0.5);
+    padding:1rem;
+}
+table thead td{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+}
+
+.bmi-left{
+    width: 50%;
+    height: 80%;
+    
+    margin-top: 52px;
+}
+
+.bmi-left h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+}
+.bmi-left p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+margin-top: 12px;
+}
+
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+input{
+    border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.1);
+width: 282.5px;
+height: 48px;
+border: none;
+margin-top: 20px;
+
+}
+
+select {
+    border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.1);
+width: 282.5px;
+height: 48px;
+margin-top: 20px;
+color:rgba(255, 255, 255, 0.6);
+border: none;
+}
+.big-sele{
+    width: 577px;
+height: 48px;
+}
+.cal-btn{
+    border-radius: 42px;
+
+background: rgb(230, 83, 60);
+color: aliceblue;
+padding: 16px 40px;
+margin-top: 30px;
+border: none;
+}
+
+
+/* bmi section */
