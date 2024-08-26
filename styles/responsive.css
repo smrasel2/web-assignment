@@ -31,9 +31,10 @@
    }
    #btn-two{
 
-            width: 150px;
+            width: 40%;
+            height: 12%;
            margin-left: 200px;
-    margin-top: -500px;
+    margin-top: -530px;
 }
 #btn-one{
     width: 155px;
@@ -66,10 +67,11 @@ margin-top: -350px;
     
     
 }
-.habbit-grid{
-    margin: 0 100px;
-    grid-template-columns: repeat(1,1fr);
-    margin-bottom: 50px;
+.flex-habbi{
+  flex-direction: column;
+  align-items: center;
+ 
+  
 }
 .bmi-cont{
     flex-direction: column;
@@ -102,12 +104,12 @@ margin-top: -350px;
    }
 
   input{
-     width: 150px;
+     width: 100px;
      margin-left: 20px;
      
   }
   select{
-    width: 150px;
+    width: 100px;
     margin-left: 20px;
     
   }
