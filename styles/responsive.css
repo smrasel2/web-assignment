@@ -139,4 +139,37 @@ margin-top: -350px;
     grid-template-columns: repeat(1,1fr);
     gap: 8px;
 }
+.footer-flex{
+  flex-direction: column;
+}
+
+.footer-left{
+  width: 100%;
+  
+margin-left: 0;
+
+}
+.footer-right{
+  width: 100%;
+}
+.footer-left h1{
+  margin-left: 0;
+  text-align: center;
+
+}
+.footer-left p{
+  margin-left: 0;
+  text-align: center;
+}
+.footer-linkes{
+  flex-direction: column;
+  height: 100%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+hr{
+  width: 80%;
+  margin-left: 50px;
+  
+}
 } 
